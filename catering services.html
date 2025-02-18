@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7b0029;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .gallery-item {
+            background: #49013a;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0px 4px 10px rgb(20, 19, 19);
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .add-to-chat {
+            margin-top: 10px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .video-section {
+            margin-top: 20px;
+            padding: 20px;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catering services</h1>
+    <div class="gallery">
+        <div class="gallery">
+            <div class="gallery-item"><img src="mus" alt="Music Sticker 1"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="music dj.jpg" alt="Music Sticker 2"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker3.jpg" alt="Music Sticker 3"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker4.jpg" alt="Music Sticker 4"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker5.jpg" alt="Music Sticker 5"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker6.jpg" alt="Music Sticker 6"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker7.jpg" alt="Music Sticker 7"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker8.jpg" alt="Music Sticker 8"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker9.jpg" alt="Music Sticker 9"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker10.jpg" alt="Music Sticker 10"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker11.jpg" alt="Music Sticker 11"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker12.jpg" alt="Music Sticker 12"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker13.jpg" alt="Music Sticker 13"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker14.jpg" alt="Music Sticker 14"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker15.jpg" alt="Music Sticker 15"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker16.jpg" alt="Music Sticker 16"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker17.jpg" alt="Music Sticker 17"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker18.jpg" alt="Music Sticker 18"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker19.jpg" alt="Music Sticker 19"><button class="add-to-cart">Add to Chart</button></div>
+            <div class="gallery-item"><img src="sticker20.jpg" alt="Music Sticker 20"><button class="add-to-cart">Add to Chart</button></div>
+        </div>
+    </div>
+    
+    <div class="video-section">
+        <h2>Featured Photography Video</h2>
+        <video controls>
+            <source src="photography_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>

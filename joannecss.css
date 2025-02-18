@@ -1,0 +1,181 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('sa.avif') no-repeat center center/cover;
+    
+}
+
+header {
+    color: rgb(241, 8, 8);
+    padding: 1em 0;
+    text-align: center;
+    background: url('j1.jpg') no-repeat center center/cover;
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+}
+    
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    color: blue;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+#about{
+    color: #000000;
+    align-items: center;
+    margin-left: 200px;
+    border: none;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    width: 500px;
+
+}
+#home{
+    color: rgb(25, 0, 255);
+   
+}
+
+
+.hero {
+    background: url('travel-hero.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero button {
+    background: #f57c00;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+   
+    
+}
+
+
+
+
+    
+
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+    margin: 0 auto;
+    color: blue;
+    align-items: center;
+    border: none;
+    
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: bottom 5px;
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+    margin-top: 7px;
+}
+form button {
+   
+    background-color: rgb(65, 252, 65);
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 50px;
+    
+}
+form button:hover {
+    opacity: 0.4;
+    background-color: rgb(250, 5, 5);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+ 
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+ }
+ .gallery p{
+    align-items: center;
+    text-align: center;
+}
+ img{
+    width: 400px;
+    height: 250px;
+ }
+ .card{
+    width: 500px;
+    height: 300px;
+  
+ }
+ h3{
+    color: rgb(2, 2, 8);
+    text-align: center;
+    font-size: small;
+    border: none;
+    background-color: blue;
+    border-radius: 100px;
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    margin-left: 100px;
+    
+ }
+ h3:hover {
+    opacity: 100%;
+    background-color: rgb(5, 250, 46);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid black;
+    
+    
+ }
